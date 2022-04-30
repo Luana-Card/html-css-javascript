@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* color: #FFFFFF; */
+}
+.logo {
+    font-size: 25px;
+    padding: 3px;
+    /* background-color: rgb(187, 128, 172); */
+    background-color: #fff;
+    border: black solid 2px;
+}
+
+header {
+    border-top: black solid 3px;
+    width: 100%;
+    height: 10vh;
+    /* background-color: cadetblue; */
+    background-color: #A00000;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    background: #FFFFFF;
+    color: rgb(187, 128, 172);
+    color: #A00000;
+    padding: 3px;
+    border: black solid 3px;
+}
+
+
+body {
+    background-color: rgb(187, 128, 172);
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 0;
+    gap: 90px;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.topo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-mim {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+#email {
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    padding: 8px;
+}
