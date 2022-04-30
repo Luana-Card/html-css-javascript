@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    
+    grid-template-columns: repeat(4, 80px);
+    grid-template-columns: 80px 1fr repeat(2, 150px) 1fr;
+    grid-template-columns: repeat(3, 1fr); /**separando as colunas/
+
+    grid-template-rows: repeat(4, 50px); /*atribui o px indicado a quantidade de linhas especificadas*/
+    grid-template-rows: auto; /* pega automaticamente o tamanho da div*/
+    row-gap: 50px; /*espaço entre as linhas*/
+}
+
+.grid div {
+    padding: 30px;
+}
