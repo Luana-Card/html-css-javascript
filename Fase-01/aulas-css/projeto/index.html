@@ -33,16 +33,32 @@
             <h3>Estudante de programação</h3>
         </div>
 
-        <div class="sobre-mim">
-            <i class="fa-solid fa-circle-info "></i>
+        <div onclick="displayInfo()"  class="sobre-mim">
+            <i id="animation-info" class="fa-solid fa-circle-info "></i>
             <p>Sobre mim</p>
         </div>
 
+        <div id="sobre-mim-texto" style="display: none;" onclick="function showHideInfo()"  class="secao-sobre-mim">
+            <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro possimus eligendi at quidem ipsum qui ducimus eius eum, sed, ea veniam minus nesciunt obcaecati, sit incidunt optio minima omnis dolore deserunt accusamus repellat tempora modi.</p>
+        </div>
+        
         <div class="contact">
             <p>Me mande um email:</p>
             <p id="email">example@mail.com</p>
         </div>
     </div>
     </main>
+
+    <script>
+        function displayInfo() {
+            var infoIcon = document.getElementById('animation-info')
+            infoIcon.classList.toggle('rotate') /* toggle remmove a classe do elemento e adiciona a classe] indicada no css para a animação*/
+        }
+
+        function showHideInfo() {
+            var infoText = document.getElementById('sobre-mim-texto')
+            infoText.classList.toggle('show-hide-info')
+        }
+    </script>
 </body>
 </html>
