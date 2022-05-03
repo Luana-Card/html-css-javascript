@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.logo {
+    font-size: 25px;
+    padding: 3px;
+    /* background-color: rgb(187, 128, 172); */
+    background-color: #fff;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+header {
+    border-top: 2px dashed #FFFFFF; 
+    border-bottom: 2px dashed #FFFFFF;
+    width: 100%;
+    height: 12vh;
+    /* background-color: cadetblue; */
+    background-color: #A00000;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    background: #FFFFFF;
+    color: #A00000;
+    padding: 3px;
+    border-radius: 5px;
+    border: black solid 3px;
+}
+
+.content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    gap: 50px;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.topo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-mim i {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sobre-mim:hover {
+    color: #A00000;
+    text-decoration: underline;
+    transition: 200ms;
+    cursor: pointer;
+}
+.sobre-mim i {
+    font-size: 20px;
+    animation: blink-info 1s steps(5, start) infinite;
+}
+
+@keyframes blink-info {
+    to {
+        visibility: hidden;
+    }
+}
+
+.secao-sobre-mim {
+    color: #A00000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.rotate { /*classe informada na função da animação*/
+    transform: rotate(360deg);
+    transition: 500ms;
+}
+
+.show-hide-info {
+    display: block !important; /*usa-se !importante para sobrescrever o css inline*/
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#email {
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#email:hover{
+    color: #A00000;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 480px) {
+    header {
+        height: 8vh;
+    }
+
+    .logo {
+        font-size: 17px;
+        padding: 3px;
+        /* background-color: rgb(187, 128, 172); */
+        background-color: #fff;
+        border: black solid 2px;
+        border-radius: 5px;
+    }
+
+    nav a {
+        font-size: 10px;
+    }
+
+
+}
