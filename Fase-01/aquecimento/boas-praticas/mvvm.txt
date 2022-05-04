@@ -1,0 +1,5 @@
+MVVM = Model, View, ViewModel
+
+Model = Regras de negócio;
+View = Interação com o usuário/aparência;
+ViewModel = Lógica de controllers + Disponibilização de view com lógicas de aplicação (Independente da view e da model, apenas coordena as interações entre eles).

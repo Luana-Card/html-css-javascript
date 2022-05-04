@@ -1,0 +1,4 @@
+Ferramenta de preparação de ambiente de componentes de UI
+Desenvolvimento isolado de componentes de interface
+
+Site oficial: https://storybook.js.org/

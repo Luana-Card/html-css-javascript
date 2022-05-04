@@ -1,0 +1,11 @@
+1 - SINGLETON (Tipo: Creational)
+Garante que existe apenas uma instância de uma classe
+Prove acesso global a toda a aplicação por um único ponto
+
+
+2 - STRATEGY (Tipo: Behavioral)
+Define algoritmos diferentes em suas classes porém compartilham funcionalidades.
+
+
+3 - ADAPTER (Tipo: Structural)
+Adapta uma implementação existente usando herança

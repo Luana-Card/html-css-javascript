@@ -1,0 +1,7 @@
+MVC = Model View Controller
+
+Padrão arquitetural (backend) -> 3 camadas, cada uma responsável por uma função/responsabilidade específica
+
+1 - Model: Conexão com db, lida com as informações da aplicação e valdação de dados; 
+2 - View: Camada de interface (interação com o usuário + renderização de componentes);
+3 - Controller: Recebimento de requests, tem as regras de negócio e faz o intermédio entre Model e View (controla).

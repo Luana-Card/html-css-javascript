@@ -1,0 +1,4 @@
+Evolução de arquitetura de software
+Site explicativo: https://single-spa.js.org/
+
+Une componentes mesmo misturando linguagens e frameworks (não necessariamente com uma tecnologia específica)

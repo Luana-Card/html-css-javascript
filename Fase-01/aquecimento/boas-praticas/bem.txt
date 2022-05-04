@@ -1,0 +1,10 @@
+BEM = Block Element Modifier >> Melhora a organização do código CSS
+Site = http://getbem.com/introduction/
+
+Bloco = Container com conjunto de elementos
+Modifier = Flag em bloco ou elemento >> Muda a aparência ou comportamento
+
+CONVENÇÃO DE NOMES - PADRONIZAÇÃO
+2X underline p/ nomeação de classes de elementos (ex: class__name, xxx__xxx)
+2x traço p/ classes modificadoras (ex: class--name, xxx--xxx)
+
